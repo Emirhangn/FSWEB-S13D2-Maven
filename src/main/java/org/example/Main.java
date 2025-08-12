@@ -41,10 +41,10 @@ public class Main {
     }
     public static String numberToWords(int sayi){
         if(sayi < 0){
-            System.out.println("invalid Value");
+            return "Invalid Value";
         }
         if(sayi == 0){
-            System.out.println("Zero");
+            return "Zero";
         }
 
         String sayiStr = String.valueOf(sayi);
